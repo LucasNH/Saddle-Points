@@ -11,7 +11,7 @@ def main():
     For the proof of the above statement, see README.md
     """
     # Given matrix
-    input_matrix_1 = np.array(
+    matrix_1 = np.array(
         [[22.128, 71.599, 24.083, 79.442, 8.4186, 55.744],
          [14.83, 67.261, 85.3, 38.613, 59.892, 51.837],
          [6.6377, 93.302, 52.451, 62.743, 33.464, 34.494],
@@ -19,14 +19,14 @@ def main():
          [7.1165, 81.087, 44.558, 13.754, 85.023, 18.426]])
 
     # Test matrices
-    input_matrix_2 = np.array([[1, 2], [0, 1]])
-    input_matrix_3 = np.array([[1, 2], [1, 1]])
-    input_matrix_4 = np.array([[6, 14, 9], [3, 21, 10]])
+    matrix_2 = np.array([[1, 2], [0, 1]])         # A[0, 0] = 1
+    matrix_3 = np.array([[1, 2], [1, 1]])         # A has no saddle points
+    matrix_4 = np.array([[8, 14, 7], [5, 21, 6]]) # A[0, 2] = 7
 
     # We set matrix A to whichever input matrix defined above
-    A = input_matrix_1
+    A = matrix_1
 
-    print("\nInput matrix A:")
+    print("\nMatrix A:")
     print(A)
 
     sp_index = get_saddle_point(A)
@@ -58,7 +58,7 @@ def get_saddle_point(matrix) -> list:
     return None
 
 
-def exclusive_min(index, lst) -> bool:
+def exclusive_min(index: int, lst: list) -> bool:
     """
     This function checks if lst[index] is strictly smaller than every other
     element in lst.
@@ -73,7 +73,7 @@ def exclusive_min(index, lst) -> bool:
     return True
 
 
-def exclusive_max(index, lst):
+def exclusive_max(index: int, lst: list) -> bool:
     """
     This function checks if lst[index] is strictly greater than every other
     element in lst.
