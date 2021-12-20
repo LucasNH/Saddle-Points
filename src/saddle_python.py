@@ -38,13 +38,6 @@ def main():
             str(sp_index) + ": " + str(A[sp_index[0], sp_index[1]]))
 
 
-def print_matrix(matrix):
-    for row in matrix:
-        for num in row:
-            print(num, end=" ")
-        print()
-
-
 def get_saddle_point(matrix) -> list:
     """
     This function iterates through an m x n matrix and checks if each entry is
