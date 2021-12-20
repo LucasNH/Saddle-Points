@@ -37,17 +37,17 @@ Let x be the point on the same column as a and on the same row as b, and let y b
 
 Then, W.L.O.G, the following grid is in A:
 
-      .       .
-      .       .
-      .       .
-. . . a . . . y . . .
-      .       .
-      .       .
-      .       .
-. . . x . . . b . . .
-      .       .
-      .       .
-      .       .
+        .       .
+        .       .
+        .       .
+    . . . a . . . y . . .
+        .       .
+        .       .
+        .       .
+    . . . x . . . b . . .
+        .       .
+        .       .
+        .       .
 
 By definition, a is the smallest number in its row, so a < y, and a is also the largest number in its column, so a > x.
 The following is true for b for the same reason as above: b < x, b > y.
