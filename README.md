@@ -3,7 +3,7 @@ Finding Saddle Points in a Matrix
 
 Author of solution: Lucas Noritomi-Hartwig
 
-I did not authorquestion.
+I did not author this question.
 Here is the link to the video where I first encountered this question:
 https://youtu.be/Wm5eLTeC9KM
 
