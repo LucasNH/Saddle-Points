@@ -23,7 +23,7 @@ def main():
     matrix_3 = np.array([[1, 2], [1, 1]])         # A has no saddle points
     matrix_4 = np.array([[8, 14, 7], [5, 21, 6]]) # A[0, 2] = 7
 
-    # We set matrix A to whichever input matrix defined above
+    # Set matrix A to whichever input matrix defined above
     A = matrix_1
 
     print("\nMatrix A:")
