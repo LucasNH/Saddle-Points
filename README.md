@@ -1,7 +1,9 @@
 # Saddle-Points
 Finding Saddle Points in a Matrix
 
-I do not take credit for this question.
+Author of solution: Lucas Noritomi-Hartwig
+
+I did not authorquestion.
 Here is the link to the video where I first encountered this question:
 https://youtu.be/Wm5eLTeC9KM
 
