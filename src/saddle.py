@@ -67,7 +67,8 @@ def exclusive_min(index: int, lst: list) -> bool:
     Postcondition: returns True if lst[index] is strictly smaller than every
     other element in lst, False otherwise.
     """
-    for i in range(len(lst)):
+	length = len(lst)
+    for i in range(length):
         if i != index and lst[i] <= lst[index]:
             return False
     return True
@@ -82,7 +83,8 @@ def exclusive_max(index: int, lst: list) -> bool:
     Postcondition: returns True if lst[index] is strictly greater than every
     other element in lst, False otherwise.
     """
-    for i in range(len(lst)):
+	length = len(lst)
+    for i in range(length):
         if i != index and lst[i] >= lst[index]:
             return False
     return True
